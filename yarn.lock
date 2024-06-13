@@ -3995,6 +3995,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.2
+    react-native-snackbar: ^2.6.2
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
@@ -4202,9 +4203,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.796":
-  version: 1.4.796
-  resolution: "electron-to-chromium@npm:1.4.796"
-  checksum: 29829ba285b2bb765e3abb82023b006f1d214333d045ab434b2c6be964c5ce0a761e992bd9eab09f51ac2b31712a5b003ed34cf891a627bf80f37e79ccddd6ac
+  version: 1.4.799
+  resolution: "electron-to-chromium@npm:1.4.799"
+  checksum: 442e3d73dfefe7e9fc7ede891189bf4661d0296301b6c304cd245df935bdaacb0d48ddcdc8d98b6bab91fc763a1841f5250c7687ec6a11342143a74d58bf73d4
   languageName: node
   linkType: hard
 
@@ -4972,12 +4973,12 @@ __metadata:
   linkType: hard
 
 "foreground-child@npm:^3.1.0":
-  version: 3.1.1
-  resolution: "foreground-child@npm:3.1.1"
+  version: 3.2.0
+  resolution: "foreground-child@npm:3.2.0"
   dependencies:
     cross-spawn: ^7.0.0
     signal-exit: ^4.0.1
-  checksum: 139d270bc82dc9e6f8bc045fe2aae4001dc2472157044fdfad376d0a3457f77857fa883c1c8b21b491c6caade9a926a4bed3d3d2e8d3c9202b151a4cbbd0bcd5
+  checksum: 6a285b94c5a3cdaabbe230673889c1da0820a2da32366bcac6b9a165edcf390fdcc05d277e0674c4973d767c35e90f0866a4c275253790b60b9c372c346090e3
   languageName: node
   linkType: hard
 
@@ -7941,6 +7942,16 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-native-snackbar@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "react-native-snackbar@npm:2.6.2"
+  peerDependencies:
+    react: ">=16"
+    react-native: ">=0.60"
+  checksum: 900d522270dfd3a83f26aaace7da08727a86d94b0f099263eb20bb064bdd34b84f26d1140ab575d816637cd64b5a3967c17be485c9f96118862e973c78afb9d0
   languageName: node
   linkType: hard
 
